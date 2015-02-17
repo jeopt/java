@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>M&amp;H-Borsa de Treball</title>
+		<meta charset="UTF-8"/>
+		<link type="image/x-icon" href="imatges/logo.ico" rel="shortcut icon">
+		<meta name="description" content="Venta de productes per a hoteleria"/>
+		<meta name="keywords" content="hoteleria, hotel, coberts, estovalles, copes, vasos"/>
+		<link rel="stylesheet" href="css/borsa_form.css"/>
+		<link rel="stylesheet" href="css/template.css"/>
+		<link rel="stylesheet" href="css/menu_desplegable.css"/>
+		<link rel="stylesheet" href="css/fonts.css"/>
+		<link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/jquery.slides.js"></script>
+		<script src="js/functions.js"></script>
+	</head>
+<body>
+	<div id="all">
+		<header>
+			<figure>
+				<img src="imatges/logo.jpg" alt="nom Empresa"/>
+			</figure>
+			<p>MENAGE I HOTELERIA TÀRREGA, S.AS</p>
+		</header>
+
+		<nav id="menu_tablet">
+			<a href="#" class="bt_menu"><span class="icon-file"></span>Menú</a>
+		</nav>
+
+		<nav id="menu_pc">
+			<!--y si quisiéramos que uno de esos enlaces fuera un submenú:-->
+			<ul class="mi-menu">
+			  <li><a href="index.html"><span class="icon-home"></span> Inici</a></li>
+			  <li>
+			    <a href="#"><span class="icon-user"></span> Qui Som</a>
+			    <ul>
+			      <li><a href="mh.html">MENAGE I HOTELERIA</a></li>
+			      <li><a href="localitzacio.html">On Trobar-nos</a></li>
+			    </ul>
+			  </li>
+			   <li id="cataleg">
+			    <a href="#"><span class="icon-books"></span> Catàleg</a>
+			    <ul>
+			      <li><a href="productes.html">Coberts</a></li>
+			      <li><a href="productes.html">Copes</a></li>
+			      <li><a href="productes.html">Vasos</a></li>
+			      <li><a href="productes.html">Tasses</a></li>
+			      <li><a href="productes.html">Pots</a></li>
+			      <li><a href="productes.html">Plats</a></li>
+			      <li><a href="productes.html">Safates</a></li>
+			      <li><a href="productes.html">Estovalles</a></li>
+			      <li><a href="productes.html">Complements i Estufes</a></li>
+			    </ul>
+			  </li>
+			   <li>
+			    <a href="#"><span class="icon-users"></span> Contacta</a>
+			    <ul>
+			      <li><a href="contacta_form.html">Formulari de Conacte</a></li>
+			      <li><a href="borsa_form.html">Borsa de Treball</a></li>
+			    </ul>
+			  </li>
+			</ul>
+			<form action="#">
+						<input type="text" name="cerca" placeholder="Producte"/>
+						<input id="go" type="button" name="go" value=" " /> 
+					</form>
+		</nav>	
+		<main>
+			<article>
+				<h1>Borsa de Treball</h1>
+				<form action="formulari_contacta">
+					<ul id="dades">
+						<li>Nom</li>
+						<li>Cognoms</li>
+						<li>Telèfon</li>
+						<li>Correu Electrònic</li>
+						<li>Currículum Vitae</li>
+					</ul>
+					<ul>
+						<li><input type="text" name="nom" placeholder="Nom"/></li>
+						<li><input type="text" name="cognoms" placeholder="Cognoms"/></li>
+						<li><input type="text" name="telefon" placeholder="Telèfon"/></li>
+						<li><input type="text" name="mail" placeholder="E-mail"/></li>
+						<li><input type="file" name="navega"/></li>
+						<li><input type="button" name="enviar" value="Enviar" /></li>
+					</ul>
+				</form>
+			</article>
+			<article>
+				<figure>
+					<img src="imatges/borsa.jpg" alt="Borsa"/>
+				</figure>
+			</article>
+		</main>
+		<footer>
+			<ul id="dadesEmpresa">
+				<li><span class="icon-location"></span> Direcció:</li>
+				<li><span class="icon-phone"></span> Telèfon d'Atenció al Client:</li>
+				<li><span class="icon-envelope"></span> Correu Electrònic:</li>
+			</ul>
+			<ul id="footerDades">
+				<li>Av. Tarragona, s/n. - Tàrrega</li>
+				<li>973 314948</li>
+				<li>mhtarrega.sefed@gmail.com</li>
+			</ul>
+			<ul id="copyright">
+				<li><span>©</span> 2014 Tots els drets reservats</li>
+				<li><a href="mh.html">Termes i Condicions</a></li>
+			</ul>
+			<figure>
+				<a href="#"><img id="fb" src="imatges/transparent.png" alt="facebook"/></a>
+			</figure>
+			<figure>
+				<a href="#"><img id="twitter" src="imatges/transparent.png" alt="tweeter"/></a>
+			</figure>
+		</footer>
+	</div>
+</body>
+</html>
