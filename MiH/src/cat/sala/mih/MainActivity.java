@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 		// Forzamos el webview para que abra los enlaces externos en el navegador
 		        mWebView.setWebViewClient(new MyAppWebViewClient());
 		        
-		        System.out.println("Prova");
+		  
 	}
 	
 	 @Override
