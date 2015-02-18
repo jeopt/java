@@ -17,6 +17,8 @@ public class PagarunaNomina {
 		// TODO Auto-generated method stub
 
 		AlumneDual estudiant = new AlumneDual();
+		
+		System.out.println("prova git");
 
 		File ruta = new File("fitxers");
 		File arxiu = new File(ruta, "nomines.txt");
