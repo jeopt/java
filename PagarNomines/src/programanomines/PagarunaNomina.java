@@ -19,6 +19,7 @@ public class PagarunaNomina {
 		AlumneDual estudiant = new AlumneDual();
 		
 		System.out.println("prova git");
+		System.out.println("prova git02");
 
 		File ruta = new File("fitxers");
 		File arxiu = new File(ruta, "nomines.txt");
